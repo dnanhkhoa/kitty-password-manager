@@ -9,9 +9,10 @@ A simple password manager for [the Kitty terminal](https://sw.kovidgoyal.net/kit
 Before you can use this plugin, you will need to install the following dependencies:
 
 - [Bitwarden CLI](https://bitwarden.com/help/cli/#download-and-install)
-- [Fzf](https://github.com/junegunn/fzf#installation)
+- [fzf](https://github.com/junegunn/fzf#installation)
+- [jq](https://stedolan.github.io/jq/download/)
 
-These dependencies are necessary as the plugin uses your credentials stored in Bitwarden and Fzf for interactive password selection.
+These dependencies are necessary as the plugin uses your credentials stored in Bitwarden, fzf for interactive password selection, and jq for JSON parsing.
 
 ## Installation
 
